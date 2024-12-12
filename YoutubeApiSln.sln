@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34526.213
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3C54F222-5F34-4703-87CF-5F281F35EC48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{468E1C89-13B4-4319-9FF5-E09E7599E30D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2B92C830-3150-44B3-A7A4-DA3F2086416D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Application", "Core\YoutubeApi.Application\YoutubeApi.Application.csproj", "{6BA7E4DD-D286-4D39-90F4-483ECBA73DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Domain", "Core\YoutubeApi.Domain\YoutubeApi.Domain.csproj", "{152C97C3-D4A5-4DDF-8BDB-2AC89F45F636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Youtube.Infrastructure", "Infrastructure\Youtube.Infrastructure\Youtube.Infrastructure.csproj", "{BBD56929-A953-4B81-B079-DBDD4C8E3A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Persistence", "Infrastructure\YoutubeApi.Persistence\YoutubeApi.Persistence.csproj", "{9F13081B-6357-4B4B-9758-936B27768A35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Api", "Presentation\YoutubeApi.Api\YoutubeApi.Api.csproj", "{7C142C26-9178-482E-B387-1ED686FA4EB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BA7E4DD-D286-4D39-90F4-483ECBA73DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA7E4DD-D286-4D39-90F4-483ECBA73DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA7E4DD-D286-4D39-90F4-483ECBA73DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA7E4DD-D286-4D39-90F4-483ECBA73DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152C97C3-D4A5-4DDF-8BDB-2AC89F45F636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152C97C3-D4A5-4DDF-8BDB-2AC89F45F636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152C97C3-D4A5-4DDF-8BDB-2AC89F45F636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152C97C3-D4A5-4DDF-8BDB-2AC89F45F636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD56929-A953-4B81-B079-DBDD4C8E3A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD56929-A953-4B81-B079-DBDD4C8E3A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD56929-A953-4B81-B079-DBDD4C8E3A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD56929-A953-4B81-B079-DBDD4C8E3A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F13081B-6357-4B4B-9758-936B27768A35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F13081B-6357-4B4B-9758-936B27768A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F13081B-6357-4B4B-9758-936B27768A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F13081B-6357-4B4B-9758-936B27768A35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C142C26-9178-482E-B387-1ED686FA4EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C142C26-9178-482E-B387-1ED686FA4EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C142C26-9178-482E-B387-1ED686FA4EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C142C26-9178-482E-B387-1ED686FA4EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BA7E4DD-D286-4D39-90F4-483ECBA73DD6} = {3C54F222-5F34-4703-87CF-5F281F35EC48}
+		{152C97C3-D4A5-4DDF-8BDB-2AC89F45F636} = {3C54F222-5F34-4703-87CF-5F281F35EC48}
+		{BBD56929-A953-4B81-B079-DBDD4C8E3A4D} = {468E1C89-13B4-4319-9FF5-E09E7599E30D}
+		{9F13081B-6357-4B4B-9758-936B27768A35} = {468E1C89-13B4-4319-9FF5-E09E7599E30D}
+		{7C142C26-9178-482E-B387-1ED686FA4EB0} = {2B92C830-3150-44B3-A7A4-DA3F2086416D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77BA5CB4-E74E-425C-A0CD-5D541375A470}
+	EndGlobalSection
+EndGlobal
